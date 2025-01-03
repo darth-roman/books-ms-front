@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Unkempt:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #444;
+    color: #fff;
+    font-family: "Unkempt", serif;
+    font-weight: bolder;
+}
+
+nav{
+    background-color: #e9c44c;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
