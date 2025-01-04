@@ -9,9 +9,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^1.7.9",
     "vue": "^3.5.13"
   },
   "devDependencies": {
+    "@klarr-agency/circum-icons-vue": "^2.0.1",
     "@vitejs/plugin-vue": "^5.2.1",
     "vite": "^6.0.5",
     "vite-plugin-vue-devtools": "^7.6.8"
