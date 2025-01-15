@@ -46,11 +46,11 @@ onMounted(async () => {
         <p>{{book.author}}</p>
         <p>{{ book.genre }}</p>
       </div>
-      <div class="book add-btn">
+      <!-- <div class="book add-btn">
         <div>
           <CircumIcon name="circle_plus"/>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>

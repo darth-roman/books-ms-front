@@ -80,9 +80,9 @@ form{
 
 
 .books-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: start;
     justify-content: center;
 
     padding: 1rem;
@@ -99,8 +99,31 @@ form{
     align-items: flex-start;
 
     width: 100%;
+    height: 100%;
     background-color: var(--red-secondary);
 
+    box-shadow: var(--imperial-yellow) 1px 2px 1px;
     padding: 1rem;
     border-radius: 1rem;
+}
+
+@media screen and (min-width: 750px) and (max-width: 1000px) {
+    .books-container{
+    grid-template-columns: repeat(2, 1fr);
+
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px){
+    .books-container{
+    grid-template-columns: repeat(3, 1fr);
+
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .books-container{
+    grid-template-columns: repeat(3, 1fr);
+
+    }
 }
